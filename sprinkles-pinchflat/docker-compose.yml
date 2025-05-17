@@ -18,8 +18,6 @@ services:
     volumes:
       - ${APP_DATA_DIR}/config:/config
       - ${UMBREL_HOME}/Downloads:/downloads
-    environment:
-      
     container_name: sprinkles-pinchflat_server_1
     restart: on-failure
     user: "1000:1000"
