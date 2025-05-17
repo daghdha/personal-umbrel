@@ -1,27 +1,27 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
-category: Development
+id: sprinkles-pinchflat
+name: Pinchflat
+tagline: Your next YouTube media manager
+icon: https://github.com/kieraneglin/pinchflat/blob/master/priv/static/images/originals/logo-white-wordmark-with-background.png
+category: Media
 version: "1.0.0"
-port: 4000
+port: 8945
 description: >-
-  Add your app's description here.
+  Pinchflat is a self-hosted app for downloading YouTube content built using yt-dlp. It's designed to be lightweight, self-contained, and easy to use. You set up rules for how to download content from YouTube channels or playlists and it'll do the rest, periodically checking for new content. It's perfect for people who want to download content for use in with a media center app (Plex, Jellyfin, Kodi) or for those who want to archive media!
 
+While you can download individual videos, Pinchflat is best suited for downloading content from channels or playlists. It's also not meant for consuming content in-app - Pinchflat downloads content to disk where you can then watch it with a media center app or VLC.
 
-  You can also add newlines!
+If it doesn't work for your use case, please make a feature request! You can also check out these great alternatives: Tube Archivist, ytdl-sub, and TubeSync
 
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: Kieran
+website: https://github.com/kieraneglin
+submitter: Kieran
+submission: https://github.com/kieraneglin/pinchflat
+repo: https://github.com/kieraneglin/pinchflat
+support: https://github.com/kieraneglin/pinchflat/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://github.com/kieraneglin/pinchflat/blob/master/priv/static/images/app-form-screenshot.jpg
+  - https://github.com/kieraneglin/pinchflat/blob/master/priv/static/images/app-screenshot.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
